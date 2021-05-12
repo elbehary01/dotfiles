@@ -5,6 +5,8 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
