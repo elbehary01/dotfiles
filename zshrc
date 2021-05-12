@@ -111,7 +111,7 @@ alias tsmd="transmission-daemon"
 alias zs="source ~/.zshrc"
 alias chrome="open -a \"Google Chrome\""
 alias lvl="echo $SHLVL"
-alias exa="exa -laFh --git"
+alias ll="exa -laFh --git"
 alias bbd="brew bundle dump --force --describe"
 # alias trail="<<<${(F)path}"
 alias man=batman
@@ -176,3 +176,6 @@ echo 'Hello from .zshrc'
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

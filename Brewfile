@@ -1,3 +1,5 @@
+tap "eth-p/software"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -17,6 +19,8 @@ brew "fzf"
 brew "git"
 # Improved top (interactive process viewer)
 brew "htop"
+# Apache HTTP server
+brew "httpd", restart_service: true
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
@@ -41,6 +45,8 @@ brew "transmission-cli"
 brew "tree"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Internet file retriever
+brew "wget"
 # Tracks most-used directories to make cd smarter
 brew "z"
 # UNIX shell (command interpreter)
@@ -51,6 +57,10 @@ brew "zsh-autosuggestions"
 brew "zsh-history-substring-search"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 # Free video downloader
@@ -64,12 +74,15 @@ cask "amazon-workspaces"
 cask "atom"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# Free and open-source web browser
+cask "chromium"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox"
@@ -81,13 +94,17 @@ cask "gitkraken"
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Visual user interface for Docker Container management
+cask "kitematic"
 # Animated screen capture application
 cask "licecap"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Office suite
 cask "microsoft-office"
+# Explore and manipulate your MongoDB data
 cask "mongodb-compass"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
@@ -129,4 +146,3 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Snappy", id: 512617038
