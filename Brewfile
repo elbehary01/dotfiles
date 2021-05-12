@@ -25,10 +25,14 @@ brew "httpd", restart_service: true
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Pager program similar to more
+brew "less"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Port scanning utility for large networks
 brew "nmap"
 # Manage multiple Node.js versions
@@ -146,3 +150,4 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Snappy", id: 512617038
