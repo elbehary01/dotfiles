@@ -5,8 +5,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -27,14 +25,10 @@ brew "httpd", restart_service: true
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Pager program similar to more
-brew "less"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
 # Mac App Store command-line interface
 brew "mas"
-# Free (GNU) replacement for the Pico text editor
-brew "nano"
 # Port scanning utility for large networks
 brew "nmap"
 # Manage multiple Node.js versions
