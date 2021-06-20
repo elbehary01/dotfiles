@@ -188,3 +188,13 @@ function mkcd() {
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+#  make the tap autocomplete متاح
+# if type brew &>/dev/null; then
+#   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+#   autoload -Uz compinit
+#   compinit
+# fi

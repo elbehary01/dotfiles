@@ -4,13 +4,14 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "mongodb/brew"
 tap "romkatv/powerlevel10k"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Emacs dependency management
-brew "cask"
 # Modern replacement for 'ls'
 brew "exa"
 # Command-line fuzzy finder written in Go
@@ -20,15 +21,19 @@ brew "git"
 # Improved top (interactive process viewer)
 brew "htop"
 # Apache HTTP server
-brew "httpd", restart_service: true
+brew "httpd"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Pager program similar to more
+brew "less"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Port scanning utility for large networks
 brew "nmap"
 # Manage multiple Node.js versions
@@ -61,14 +66,15 @@ brew "zsh-syntax-highlighting"
 brew "eth-p/software/bat-extras"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community", link: false
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
-# Free video downloader
-cask "4k-video-downloader"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
 # Application launcher and productivity software
 cask "alfred"
+# Cloud native persistent desktop virtualization
 cask "amazon-workspaces"
 # Text editor
 cask "atom"
@@ -92,6 +98,8 @@ cask "gimp"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Virtual globe
+cask "google-earth-pro"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Visual user interface for Docker Container management
@@ -146,4 +154,3 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Snappy", id: 512617038
