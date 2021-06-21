@@ -156,3 +156,4 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Snappy", id: 512617038
