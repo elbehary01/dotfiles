@@ -52,6 +52,8 @@ brew "tree"
 brew "vim"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Tracks most-used directories to make cd smarter
 brew "z"
 # UNIX shell (command interpreter)
