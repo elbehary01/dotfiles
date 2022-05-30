@@ -106,6 +106,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # Tracks most-used directories to make cd smarter
 brew "z"
 # UNIX shell (command interpreter)
