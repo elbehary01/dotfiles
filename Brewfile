@@ -22,6 +22,8 @@ brew "broot"
 brew "python@3.9"
 # Arbitrary precision calculator
 brew "calc"
+# Emacs dependency management
+brew "cask"
 # Console Matrix
 brew "cmatrix"
 # Defines a standard way of committing rules and communicating it
@@ -74,6 +76,12 @@ brew "nudoku"
 brew "nvm"
 # 📦🚀 Fast, disk space efficient package manager
 brew "pnpm"
+# Cross-platform application and UI framework
+brew "qt"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Search tool like grep and The Silver Searcher
