@@ -47,7 +47,7 @@ brew "graphicsmagick"
 # Improved top (interactive process viewer)
 brew "htop"
 # Apache HTTP server
-brew "httpd"
+brew "httpd", restart_service: true
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Tools and libraries to manipulate images in many formats
@@ -56,6 +56,8 @@ brew "imagemagick"
 brew "less"
 # Postgres C API library
 brew "libpq"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
 # Text-based web browser
@@ -65,9 +67,11 @@ brew "mas"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Open source relational database management system
-brew "mysql"
+brew "mysql", restart_service: true
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# HTTP/2 C Library
+brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
 # Ncurses based sudoku game
@@ -83,7 +87,7 @@ brew "poppler"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Persistent key-value database, with built-in net interface
-brew "redis"
+brew "redis", restart_service: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Ncurses BitTorrent client based on libtorrent-rakshasa
@@ -97,7 +101,7 @@ brew "starship"
 # Simplified and community-driven man pages
 brew "tldr"
 # Lightweight BitTorrent client
-brew "transmission-cli"
+brew "transmission-cli", restart_service: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Compress/expand executable files
@@ -232,8 +236,12 @@ cask "the-unarchiver"
 cask "tor-browser"
 # Open-source BitTorrent client
 cask "transmission"
+# Virtual machines UI using QEMU
+cask "utm"
 # Tool to hide menu bar icons
 cask "vanilla"
+# Virtualizer for x86 hardware
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
