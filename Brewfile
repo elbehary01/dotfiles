@@ -32,6 +32,8 @@ brew "commitizen"
 brew "cowsay"
 # Control the macOS dark mode from the command-line
 brew "dark-mode"
+# Message bus system, providing inter-application communication
+brew "dbus"
 # Tool for managing dock items
 brew "dockutil"
 # Modern replacement for 'ls'
@@ -80,12 +82,14 @@ brew "nudoku"
 brew "nvm"
 # 📦🚀 Fast, disk space efficient package manager
 brew "pnpm"
-# Cross-platform application and UI framework
-brew "qt"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Python version management
+brew "pyenv"
+# Cross-platform application and UI framework
+brew "qt"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
 # Search tool like grep and The Silver Searcher
@@ -240,8 +244,6 @@ cask "transmission"
 cask "utm"
 # Tool to hide menu bar icons
 cask "vanilla"
-# Virtualizer for x86 hardware
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
