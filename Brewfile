@@ -254,5 +254,3 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "AusweisApp2", id: 948660805
-mas "Snappy", id: 512617038
