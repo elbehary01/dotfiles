@@ -179,9 +179,12 @@ cask "dropbox"
 cask "figma"
 # Web browser
 cask "firefox"
+# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Free and open-source image editor
 cask "gimp"
+# Desktop client for GitHub repositories
+cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
@@ -254,3 +257,5 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "AusweisApp2", id: 948660805
+mas "Snappy", id: 512617038
