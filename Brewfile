@@ -207,6 +207,8 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 # Explore and manipulate your MongoDB data
 cask "mongodb-compass"
+# Visual tool to design, develop and administer MySQL servers
+cask "mysqlworkbench"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # VPN client for secure internet access and private browsing
