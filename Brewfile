@@ -221,6 +221,8 @@ cask "postman"
 cask "rectangle"
 # MongoDB management tool
 cask "robo-3t"
+# Official desktop client for Rocket.Chat
+cask "rocket-chat"
 # Screen recording and video editing software
 cask "screenflow"
 # Instant messaging application focusing on security

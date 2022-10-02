@@ -212,3 +212,13 @@ eval "$(starship init zsh)"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
+
+# rosetta terminal setup
+if [ $(arch) = "i386" ]; then
+    alias brew86="/usr/local/bin/brew"
+    alias pyenv86="arch -x86_64 pyenv"
+fi
