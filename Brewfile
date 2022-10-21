@@ -143,7 +143,7 @@ brew "heroku/brew/heroku"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
 # High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community", link: false
+brew "mongodb/brew/mongodb-community"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community@4.4"
 # A Zsh Theme
