@@ -66,8 +66,6 @@ brew "lnav"
 brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
-# MongoDB Shell to connect, configure, query, and work with your MongoDB database
-brew "mongosh"
 # Open source relational database management system
 brew "mysql", restart_service: true
 # Free (GNU) replacement for the Pico text editor
@@ -76,6 +74,8 @@ brew "nano"
 brew "nghttp2"
 # Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
 # Ncurses based sudoku game
 brew "nudoku"
 # Manage multiple Node.js versions

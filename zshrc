@@ -51,7 +51,9 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-export ENABLE_CORRECTION="true"
+export ENABLE_CORRECTION="false"
+unsetopt correct_all
+unsetopt correct
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
