@@ -144,8 +144,6 @@ brew "heroku/brew/heroku"
 brew "jesseduffield/lazygit/lazygit"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-# High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community@4.4"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 # View, print, and comment on PDF documents
@@ -261,5 +259,3 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "AusweisApp2", id: 948660805
-mas "Snappy", id: 512617038
