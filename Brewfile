@@ -22,6 +22,8 @@ brew "broot"
 brew "python@3.9"
 # Arbitrary precision calculator
 brew "calc"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Emacs dependency management
 brew "cask"
 # Console Matrix
@@ -49,7 +51,7 @@ brew "graphicsmagick"
 # Improved top (interactive process viewer)
 brew "htop"
 # Apache HTTP server
-brew "httpd", restart_service: true
+brew "httpd"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Tools and libraries to manipulate images in many formats
@@ -91,7 +93,7 @@ brew "pyenv"
 # Cross-platform application and UI framework
 brew "qt"
 # Persistent key-value database, with built-in net interface
-brew "redis", restart_service: true
+brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Ncurses BitTorrent client based on libtorrent-rakshasa
@@ -105,7 +107,7 @@ brew "starship"
 # Simplified and community-driven man pages
 brew "tldr"
 # Lightweight BitTorrent client
-brew "transmission-cli", restart_service: true
+brew "transmission-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Compress/expand executable files

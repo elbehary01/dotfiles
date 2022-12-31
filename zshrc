@@ -224,3 +224,15 @@ if [ $(arch) = "i386" ]; then
     alias brew86="/usr/local/bin/brew"
     alias pyenv86="arch -x86_64 pyenv"
 fi
+
+git-email(){
+if [ -n "$(git remote -v | grep 'github.com')" ]; then
+export GIT_AUTHOR_EMAIL="29628969+elbehary01@users.noreply.github.com"
+export GIT_COMMITTER_EMAIL="29628969+elbehary01@users.noreply.github.com"
+echo "Switched user email to noreply GitHub address"
+elif [ -n "$(git remote -v | grep 'gitlab.com')" ]; then
+export GIT_AUTHOR_EMAIL="2703715-elbehary01@users.noreply.gitlab.com"
+export GIT_COMMITTER_EMAIL="2703715-elbehary01@users.noreply.gitlab.com"
+echo "Switched user email to noreply GitLab address"
+fi
+}

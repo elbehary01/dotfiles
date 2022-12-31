@@ -1,6 +1,7 @@
-[user]
-	name = Ahmed Elbehary
-	email = 29628969+elbehary01@users.noreply.github.com
+[includeIf "gitdir:~/.gitlab/"]
+    path = .gitconfig-gitlab
+[includeIf "gitdir:~/.github/"]
+    path = .gitconfig-github
 [alias]
   lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
   lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
@@ -31,3 +32,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[user]
+	email = dummy@company.com
+	name = Dummy
