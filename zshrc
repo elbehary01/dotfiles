@@ -236,3 +236,7 @@ export GIT_COMMITTER_EMAIL="2703715-elbehary01@users.noreply.gitlab.com"
 echo "Switched user email to noreply GitLab address"
 fi
 }
+# pnpm
+export PNPM_HOME="/Users/elbehary/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
