@@ -6,7 +6,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
-tap "mongodb/brew"
 tap "romkatv/powerlevel10k"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
@@ -69,7 +68,7 @@ brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
-brew "mysql", restart_service: true
+brew "mysql"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # HTTP/2 C Library
@@ -144,8 +143,6 @@ brew "eth-p/software/bat-extras"
 brew "heroku/brew/heroku"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
-# High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 # View, print, and comment on PDF documents
@@ -261,3 +258,4 @@ cask "whatsapp"
 cask "zenmap"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "AusweisApp2", id: 948660805
