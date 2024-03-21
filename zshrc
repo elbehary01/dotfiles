@@ -2,7 +2,8 @@ echo 'Hello from .zshrc'
 
 
 # Set Variables
-
+# Syntax highlightting to man page
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # change ZSH Options
 
