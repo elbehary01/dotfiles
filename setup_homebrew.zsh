@@ -11,4 +11,4 @@ echo "\n<<< Starting Homebrew Setup >>>\n"
 # brew install cask --no-quarantine visual-studio-code
 # brew install cask --no-quarantine alfred 
 
-brew bundle install --file ./Brewfile --verbose
+brew bundle install --file=~/.dotfiles/Brewfile --verbose

@@ -1,3 +1,5 @@
 [user]
 	name = elbehary01
 	email = 29628969+elbehary01@users.noreply.github.com
+[core]
+	pager = delta

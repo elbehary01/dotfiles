@@ -2,8 +2,6 @@ echo 'Hello from .zshrc'
 
 
 # Set Variables
-# Syntax highlightting to man page
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # change ZSH Options
@@ -11,7 +9,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Create Aliases
 alias ls='ls -lAFh'
 alias ll='eza -lahF --git'
-
+alias man=batman
 
 # Customize Prompt(s)
 PROMPT='
@@ -30,5 +28,6 @@ function mkcd(){
 }
 
 # Use ZSH Plugins
-
+source /opt/local/share/fzf/shell/key-bindings.zsh
+source /opt/local/share/fzf/shell/completion.zsh
 # ... and Other Surprises  
