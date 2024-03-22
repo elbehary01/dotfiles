@@ -4,6 +4,7 @@ echo 'Hello from .zshrc'
 # Set Variables
 # Syntax highlightting to man page
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # change ZSH Options
 
