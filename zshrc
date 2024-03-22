@@ -10,6 +10,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias ls='ls -lAFh'
 alias ll='eza -lahF --git'
 alias man=batman
+alias bbd="brew bundle dump --force --describe"
+alias trail="<<<${(F)path}"
 
 # Customize Prompt(s)
 PROMPT='
@@ -17,10 +19,10 @@ PROMPT='
 
 RPROMPT='%*'
 # Add Locations to $PATH Variable
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+# export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
 
 # Add Visual Studio Code (code)
-export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH:"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
 function mkcd(){
