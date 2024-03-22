@@ -15,6 +15,8 @@ PROMPT='
 
 RPROMPT='%*'
 # Add Locations to $PATH Variable
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 

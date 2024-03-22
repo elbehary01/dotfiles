@@ -1,7 +1,5 @@
 # Taps
 tap "homebrew/bundle"
-tap "hombrew/cask"
-tap "hombrew/core"
 
 # Brews (Packages)
 brew "bat"
